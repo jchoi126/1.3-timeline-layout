@@ -1,0 +1,142 @@
+.outside{
+  width: 1100px;
+  height: 100%;
+  position: relative;
+}
+
+.container{
+  padding-top: 10px;
+}
+
+.outside:before{
+  content:"";
+  display: block;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 181px;
+  background-color: #ABCEE7;
+}
+
+.timeline{
+  width: 161px;
+  height: 100%;
+  padding-right: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.fa-cutlery{
+  position: absolute;
+  left: 179px;
+  top: 10px;
+  color: #FFFFFF;
+}
+
+.fa-compass{
+  position: absolute;
+  left: 179px;
+  top: 267px;
+  color: #FFFFFF;
+}
+
+.iconbg1{
+  left: 165px;
+  top: -2px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 6px solid #7DBFEB;
+  background-color: #5CA5D7;
+}
+
+.iconbg2{
+  left: 165px;
+  top: 255px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 6px solid #7DBFEB;
+  background-color: #5CA5D7;
+}
+
+.date div{
+  top: 14px;
+  text-align: right;
+  font-size: 11px;
+  color: #C0D2E3;
+}
+
+.time {
+  font-size: 34px;
+  text-align: right;
+  color: #7DBFEB;
+}
+
+.time2 {
+  font-size: 34px;
+  text-align: right;
+  color: #4D95C8;
+}
+
+.copymaster{
+  padding: 43px;
+  width: 782px;
+  height: 100%;
+  float left;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: #7DBFEB;
+  border-radius: 3px;
+  color: white;
+}
+
+.copymaster2{
+  padding: 43px;
+  width: 782px;
+  height: 100%;
+  float left;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: #4D95C8;
+  border-radius: 3px;
+  color: white;
+}
+
+.copymaster:before{
+  content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-right-color: #7DBFEB;
+    position: absolute;
+    left: 209px;
+    top: 15px;
+}
+
+.copymaster2:before{
+  content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-right-color: #4D95C8;
+    position: absolute;
+    left: 209px;
+    top: 267px;
+}
+
+.title{
+  font-size: 22px;
+  border-bottom: 1px solid #B0D8F2;
+  vertical-align: top;
+  padding-bottom: 14px;
+}
+
+.copy{
+  font-size: 15px;
+}
