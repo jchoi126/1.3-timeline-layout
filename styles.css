@@ -30,20 +30,20 @@
 .fa-cutlery{
   position: absolute;
   left: 179px;
-  top: 10px;
+  top: 11px;
   color: #FFFFFF;
 }
 
 .fa-compass{
   position: absolute;
   left: 179px;
-  top: 267px;
+  top: 277px;
   color: #FFFFFF;
 }
 
 .iconbg1{
   left: 165px;
-  top: -2px;
+  top: -1px;
   position: absolute;
   width: 30px;
   height: 30px;
@@ -54,7 +54,7 @@
 
 .iconbg2{
   left: 165px;
-  top: 255px;
+  top: 265px;
   position: absolute;
   width: 30px;
   height: 30px;
@@ -104,6 +104,7 @@
   background-color: #4D95C8;
   border-radius: 3px;
   color: white;
+  position: relative;
 }
 
 .copymaster:before{
@@ -126,8 +127,8 @@
     border: 8px solid transparent;
     border-right-color: #4D95C8;
     position: absolute;
-    left: 209px;
-    top: 267px;
+    left: -16px;
+    top: 6px;
 }
 
 .title{
